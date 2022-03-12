@@ -1,17 +1,18 @@
-// Obtain the root 
+// get root element
 const rootElement = document.getElementById('root');
 
-// Create a ES6 class component    
-class ShoppingList extends React.Component {
+// Create ES6 class component    
+class SocialMediaList extends React.Component {
   // Use the render function to return JSX component      
   render() {
     return (
-      <div className="shopping-list">
+      <div className="media-list">
         <h1>{this.props.name}</h1>
         <ul>
           <li>Instagram</li>
           <li>WhatsApp</li>
           <li>Facebook</li>
+          <li>Twitter</li>
         </ul>
       </div>
     );
@@ -22,7 +23,7 @@ class ShoppingList extends React.Component {
 function App() {
   return (
     <div>
-      <ShoppingList name="Social Media Platforms List:" />
+      <SocialMediaList name="Social Media Platforms:" />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+body {
+  background-color: blueviolet;
+}
+
+ul {
+  line-height: 2rem;
+}
+
+.media-list {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  color: black;
+}
