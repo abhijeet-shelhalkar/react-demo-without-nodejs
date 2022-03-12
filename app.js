@@ -29,7 +29,3 @@ function App() {
 
 // Use the ReactDOM.render to show your component on the browser
 ReactDOM.render(<App />, rootElement);
-
-
-
-/* chrome.exe --disable-web-security --user-data-dir="D:/ChromeDisable" */
