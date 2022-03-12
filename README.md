@@ -6,7 +6,11 @@ React demo without NodeJS
 
 _app.js file gives CORS error in normal chrome_
 
-##### To open disabled chrome run below command in terminal:
+##### How to open disabled chrome:
+
+- Press window + R
+
+- Enter below command
 
 ```js
 chrome.exe --disable-web-security --user-data-dir="D:/ChromeDisable"
